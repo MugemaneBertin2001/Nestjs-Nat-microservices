@@ -22,11 +22,12 @@ MySQL is a relational database management system based on SQL – Structured Que
 ![MySQL Logo](https://www.mysql.com/common/logos/logo-mysql-170x115.png)
 
 ### Docker
-Docker is a set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.
+Docker is a platform for containerizing applications to ensure consistency across different environments.
 
-![logoimage](https://github.com/user-attachments/assets/26c9704a-e5c3-4629-95ee-5aeaef3f99f6)
+![Docker Logo](https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png)
+
 ### NATS
-NATS is a simple, secure, and high-performance open-source messaging system for cloud-native applications, IoT messaging, and microservices architectures.
+NATS is a high-performance messaging system for cloud-native applications and microservices architectures.
 
 ![NATS Logo](https://nats.io/img/logos/nats-horizontal-color.png)
 
@@ -39,32 +40,20 @@ This project includes the following microservices and components:
 
 ## Running the Project Locally
 
-### Step 1: Set Up NestJS Projects
+1. **Ensure Docker and Docker Compose are installed** on your machine.
 
-1. **Initialize each NestJS project** using the NestJS CLI.
-2. **Install Required Dependencies** in each project using npm.
+2. **Build and start all services** (including microservices, MySQL, and NATS) with Docker Compose:
+    ```bash
+    docker-compose up --build
+    ```
+    This command will spin up the `http-api-gateway`, `users-microservice`, `payments-microservice`, as well as the MySQL and NATS services.
 
-### Step 2: Configure Docker and NATS![logoimage](https://github.com/user-attachments/assets/4e4623bb-2dc7-4d5f-9549-ac809bbe5522)
-
-
-1. **Create `docker-compose.yml`** in the root of your project to define MySQL and NATS services.
-2. **Run Docker Compose** to start the containers.
-
-### Step 3: Configure Each Microservice
-
-1. **Update Configuration** in each microservice to include MySQL and NATS settings.
-2. **Create Controllers and Services** to handle business logic and NATS events.
-
-### Step 4: Running the Application
-
-1. **Start each NestJS application** by running the respective start scripts.
-2. **Send Test Events** using a NATS client to verify communication between microservices.
+3. **Verify the setup** by checking the logs and ensuring that all services are running correctly.
 
 ## Conclusion
 
-This setup provides a basic microservice architecture using NestJS, MySQL, Docker, and NATS. Customize the application as needed to fit your specific requirements.
+This setup provides a complete microservice architecture using NestJS, MySQL, Docker, and NATS. Customize and extend it to fit your specific application requirements.
 
 ## License
 
 [MIT](LICENSE)
-
