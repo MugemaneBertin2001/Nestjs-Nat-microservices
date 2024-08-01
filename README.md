@@ -14,7 +14,7 @@ Ensure you have the following installed on your machine:
 ### NestJS
 NestJS is a progressive Node.js framework for building efficient and scalable server-side applications.
 
-![NestJS Logo](https://docs.nestjs.com/assets/logo-small.svg)
+![NestJS Logo](https://github.com/user-attachments/assets/fbb68d96-f04a-4dfe-8190-f1fa65a56092)
 
 ### MySQL
 MySQL is a relational database management system based on SQL – Structured Query Language.
