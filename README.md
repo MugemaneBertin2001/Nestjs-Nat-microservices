@@ -14,7 +14,7 @@ Ensure you have the following installed on your machine:
 ### NestJS
 NestJS is a progressive Node.js framework for building efficient and scalable server-side applications.
 
-![NestJS Logo](https://docs.nestjs.com/assets/logo-small.svg)
+![NestJS Logo](https://github.com/user-attachments/assets/fbb68d96-f04a-4dfe-8190-f1fa65a56092)
 
 ### MySQL
 MySQL is a relational database management system based on SQL – Structured Query Language.
@@ -24,7 +24,7 @@ MySQL is a relational database management system based on SQL – Structured Que
 ### Docker
 Docker is a platform for containerizing applications to ensure consistency across different environments.
 
-![Docker Logo](https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png)
+![Docker Logo](https://github.com/user-attachments/assets/3e32296a-6536-4dad-bea3-e884bea8b256)
 
 ### NATS
 NATS is a high-performance messaging system for cloud-native applications and microservices architectures.
