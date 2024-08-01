@@ -24,7 +24,7 @@ MySQL is a relational database management system based on SQL – Structured Que
 ### Docker
 Docker is a platform for containerizing applications to ensure consistency across different environments.
 
-![Docker Logo](https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png)
+![Docker Logo](https://github.com/user-attachments/assets/3e32296a-6536-4dad-bea3-e884bea8b256)
 
 ### NATS
 NATS is a high-performance messaging system for cloud-native applications and microservices architectures.
